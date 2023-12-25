@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: register-app-service
+  name: register-app-ci
   labels:
-    app: register-app 
+    app: register-app-ci
 spec:
   selector:
-    app: register-app
+    app: register-app-ci
 
   ports:
     - port: 8080
